@@ -1,0 +1,17 @@
+ul{
+    display: flex;
+    gap:4em;
+    list-style-type: none;
+    justify-content: center;
+    border-bottom: 2px solid blanchedalmond;
+}
+@media (min-width:300px) {
+    body{
+    background-color: greenyellow;
+    }
+h1{
+    text-align: center;
+    font-size: 9rem;
+}
+    
+}

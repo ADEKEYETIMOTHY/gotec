@@ -1,0 +1,31 @@
+
+ul{
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap:3em;
+    justify-content: center;
+    border-bottom: 2px solid blanchedalmond;
+ box-shadow: 4px 4px 4px 4px;
+}
+h1{
+    color: red;
+    font-size: 200px;
+    border-bottom: 40px;
+}
+img{
+    height: 500px;
+    width: 400px;
+    margin: 10px;
+    transition: all 2s;
+}
+div{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+align-items: center;
+    gap:1em;
+}
+img:hover {
+    transform: scaleX(2.2);
+}
